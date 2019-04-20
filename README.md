@@ -1,4 +1,4 @@
-# fuckyoushiraz
+# frickyoushrizzle
 
 > Track trains on LA public transport
 
