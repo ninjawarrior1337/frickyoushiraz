@@ -110,7 +110,7 @@ export default {
         case "804":
           return "gold"
         case "805":
-          return "pruple"
+          return "#8A2BE2"
         case "806":
           return "aqua"
       }

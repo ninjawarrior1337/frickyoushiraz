@@ -3,7 +3,7 @@
     <v-app>
       <v-toolbar app>
         <v-toolbar-title>
-         Fuck you Shiraz
+         Frick You Shrizzle
         </v-toolbar-title>
 
         <v-spacer></v-spacer>
@@ -15,7 +15,7 @@
         <v-btn v-if="$nuxt.$route.name !== 'about'" nuxt to="/about" icon>
           <v-icon>info</v-icon>
         </v-btn>
-        <v-btn v-if="$nuxt.$route.name !== 'index'" nuxt to="/test" icon>
+        <v-btn v-if="$nuxt.$route.name !== 'index'" nuxt to="/" icon>
           <v-icon>close</v-icon>
         </v-btn>
 
