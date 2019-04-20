@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import StationTooltip from '../components/StationTooltip'
+import StationTooltip from '../components/stationTooltip'
 export default {
   components: {
     "station-tooltip": StationTooltip
