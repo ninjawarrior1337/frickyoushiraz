@@ -12,7 +12,7 @@
           :color="getColorFromRouteNumber(bus.route_id)" 
           :lat-lng="[bus.latitude, bus.longitude]">
             <l-popup>
-              Heading: {{bus.heading}} <br/>
+              Heading: {{getHeadingFromNumber(bus.heading)}} <br/>
               Seconds Since Last Report: {{bus.seconds_since_report}} <br/>
               Train ID: {{bus.id}}
             </l-popup>
@@ -94,6 +94,29 @@ export default {
     centerUpdated(center)
     {
       this.center = center
+    },
+    getHeadingFromNumber(heading)
+    {
+      var val = Math.floor((heading / 22.5) + 0.5);
+      var arr = [
+        "North",
+        "North by North East", 
+        "North East", 
+        "East by North East", 
+        "East", 
+        "East by South East", 
+        "South East", 
+        "South by South East", 
+        "South", 
+        "South by South West", 
+        "South West", 
+        "West by South West", 
+        "West", 
+        "West By North West", 
+        "North West", 
+        "North by North West"
+      ];
+      return arr[(val % 16)];
     },
     getColorFromRouteNumber(routeNum)
     {

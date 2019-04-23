@@ -8,7 +8,7 @@
                 <v-card class="ma-4 pa-1">
                     <v-img width=300 src="https://image.flaticon.com/icons/svg/25/25231.svg"/>
                     <v-card-actions>
-                        <v-btn href="https://vuejs.org/" target="_blank" flat color="black">
+                        <v-btn href="https://github.com/ninjawarrior1337/frickyoushrizzle" target="_blank" flat color="black">
                             Visit GitHub Page
                         </v-btn>
                     </v-card-actions>
